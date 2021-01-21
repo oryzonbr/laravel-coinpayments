@@ -1,6 +1,6 @@
 <?php
 
-use Kevupton\LaravelCoinpayments\Models\Log;
+use Oryzonbr\LaravelCoinpayments\Models\Log;
 
 if (!function_exists('cp_table_prefix')) {
     /**
@@ -68,7 +68,7 @@ if (!function_exists('validate_eth_address')) {
     /**
      * @param $address
      * @return bool
-     * @throws \Kevupton\LaravelCoinpayments\Exceptions\InvalidHashException
+     * @throws \Oryzonbr\LaravelCoinpayments\Exceptions\InvalidHashException
      */
     function validate_eth_address ($address)
     {
@@ -79,7 +79,7 @@ if (!function_exists('validate_eth_address')) {
         } catch (Exception $e) {
         }
 
-        throw new \Kevupton\LaravelCoinpayments\Exceptions\InvalidHashException('Invalid ETH address');
+        throw new \Oryzonbr\LaravelCoinpayments\Exceptions\InvalidHashException('Invalid ETH address');
     }
 }
 
@@ -94,7 +94,7 @@ if (!function_exists('is_eth_address')) {
      */
     function is_eth_address ($address)
     {
-        $validator = new \Kevupton\LaravelCoinpayments\Validators\EthereumValidator();
+        $validator = new \Oryzonbr\LaravelCoinpayments\Validators\EthereumValidator();
         return $validator->isAddress($address);
     }
 }

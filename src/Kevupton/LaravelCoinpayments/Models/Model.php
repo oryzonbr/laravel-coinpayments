@@ -1,4 +1,4 @@
-<?php namespace Kevupton\LaravelCoinpayments\Models;
+<?php namespace Oryzonbr\LaravelCoinpayments\Models;
 
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 

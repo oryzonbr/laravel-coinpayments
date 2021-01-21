@@ -1,29 +1,29 @@
 <?php
 
-namespace Kevupton\LaravelCoinpayments;
+namespace Oryzonbr\LaravelCoinpayments;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
-use Kevupton\LaravelCoinpayments\Enums\CoinpaymentsCommand;
-use Kevupton\LaravelCoinpayments\Enums\IpnType;
-use Kevupton\LaravelCoinpayments\Exceptions\CoinPaymentsException;
-use Kevupton\LaravelCoinpayments\Exceptions\CoinPaymentsResponseError;
-use Kevupton\LaravelCoinpayments\Exceptions\IpnIncompleteException;
-use Kevupton\LaravelCoinpayments\Models\CallbackAddress;
-use Kevupton\LaravelCoinpayments\Models\Conversion;
-use Kevupton\LaravelCoinpayments\Models\Deposit;
-use Kevupton\LaravelCoinpayments\Models\Ipn;
-use Kevupton\LaravelCoinpayments\Models\Log;
-use Kevupton\LaravelCoinpayments\Models\MassWithdrawal;
-use Kevupton\LaravelCoinpayments\Models\Model;
-use Kevupton\LaravelCoinpayments\Models\Transaction;
-use Kevupton\LaravelCoinpayments\Models\Transfer;
-use Kevupton\LaravelCoinpayments\Models\Withdrawal;
+use Oryzonbr\LaravelCoinpayments\Enums\CoinpaymentsCommand;
+use Oryzonbr\LaravelCoinpayments\Enums\IpnType;
+use Oryzonbr\LaravelCoinpayments\Exceptions\CoinPaymentsException;
+use Oryzonbr\LaravelCoinpayments\Exceptions\CoinPaymentsResponseError;
+use Oryzonbr\LaravelCoinpayments\Exceptions\IpnIncompleteException;
+use Oryzonbr\LaravelCoinpayments\Models\CallbackAddress;
+use Oryzonbr\LaravelCoinpayments\Models\Conversion;
+use Oryzonbr\LaravelCoinpayments\Models\Deposit;
+use Oryzonbr\LaravelCoinpayments\Models\Ipn;
+use Oryzonbr\LaravelCoinpayments\Models\Log;
+use Oryzonbr\LaravelCoinpayments\Models\MassWithdrawal;
+use Oryzonbr\LaravelCoinpayments\Models\Model;
+use Oryzonbr\LaravelCoinpayments\Models\Transaction;
+use Oryzonbr\LaravelCoinpayments\Models\Transfer;
+use Oryzonbr\LaravelCoinpayments\Models\Withdrawal;
 
 /**
  * Class LaravelCoinpayments
  *
- * @package Kevupton\LaravelCoinpayments
+ * @package Oryzonbr\LaravelCoinpayments
  * @method Transaction createTransactionSimple($amount, $currencyIn, $currencyOut, $additional = [])
  * @method Transaction createTransaction($req)
  * @method Transfer createTransfer($amount, $currency, $merchant, $autoConfirm = false)

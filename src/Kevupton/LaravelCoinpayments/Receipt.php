@@ -6,7 +6,7 @@
  * Time: 2:15 PM
  */
 
-namespace Kevupton\LaravelCoinpayments;
+namespace Oryzonbr\LaravelCoinpayments;
 
 
 use Illuminate\Contracts\Support\Arrayable;

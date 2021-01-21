@@ -4,19 +4,19 @@ Implementation of most of the CoinPayments functionality.
 [![Coinpayments Website](https://www.coinpayments.net/images/b/821661e7a0604282da58f3f0e43e1888576f55f64458f53b193c90a9262a4e2e.png
 )](https://www.coinpayments.net/index.php?ref=a458c004de21a18c71849871781be820)
 
-### [Example API](https://github.com/kevupton/example-laravel-coinpayments)
+### [Example API](https://github.com/oryzonbr/example-laravel-coinpayments)
 
 ### Require
 
 ```
-composer require kevupton/laravel-coinpayments
+composer require oryzonbr/laravel-coinpayments
 ```
 
 ### 1. Install Service Provider
 
 ```php
 // add directly from the app 
-$app->register(\Kevupton\LaravelCoinpayments\Providers\LaravelCoinpaymentsServiceProvider::class);
+$app->register(\Oryzonbr\LaravelCoinpayments\Providers\LaravelCoinpaymentsServiceProvider::class);
 ```
 
 OR
@@ -26,7 +26,7 @@ All service providers are registered in the `config/app.php` configuration file.
 'providers' => [
     // Other Service Providers
 
-    \Kevupton\LaravelCoinpayments\Providers\LaravelCoinpaymentsServiceProvider::class,
+    \Oryzonbr\LaravelCoinpayments\Providers\LaravelCoinpaymentsServiceProvider::class,
 ],
 ```
 
@@ -166,7 +166,7 @@ Then just subscribe to the event by adding a listener to the `App\Providers\Even
      * @var array
      */
     protected $listen = [
-        Kevupton\LarvelCoinpayments\Events\Deposit\DepositCompleted::class => [
+        Oryzonbr\LarvelCoinpayments\Events\Deposit\DepositCompleted::class => [
             App\Listeners\DoSomethingOnDepositListener::class, // your own class listener for when a deposit is created
         ],
     ];
@@ -179,7 +179,7 @@ Example event listener:
 
 namespace App\Listeners;
 
-use Kevupton\LaravelCoinpayments\Events\Deposit\DepositComplete;
+use Oryzonbr\LaravelCoinpayments\Events\Deposit\DepositComplete;
 
 class DoSomethingOnDepositListener
 {
@@ -219,9 +219,9 @@ CoinPayments Controller
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Kevupton\LaravelCoinpayments\Exceptions\IpnIncompleteException;
-use Kevupton\LaravelCoinpayments\Models\Ipn;
-use Kevupton\LaravelCoinpayments\Models\Transaction;
+use Oryzonbr\LaravelCoinpayments\Exceptions\IpnIncompleteException;
+use Oryzonbr\LaravelCoinpayments\Models\Ipn;
+use Oryzonbr\LaravelCoinpayments\Models\Transaction;
 
 class CoinpaymentsController extends Controller
 {

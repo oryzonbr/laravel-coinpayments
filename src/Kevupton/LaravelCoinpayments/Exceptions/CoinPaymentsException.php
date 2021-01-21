@@ -6,7 +6,7 @@
  * Time: 12:50 PM
  */
 
-namespace Kevupton\LaravelCoinpayments\Exceptions;
+namespace Oryzonbr\LaravelCoinpayments\Exceptions;
 
 
 class CoinPaymentsException extends \Exception

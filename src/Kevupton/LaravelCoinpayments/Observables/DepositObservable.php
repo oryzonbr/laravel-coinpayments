@@ -6,13 +6,13 @@
  * Time: 6:17 PM
  */
 
-namespace Kevupton\LaravelCoinpayments\Observables;
+namespace Oryzonbr\LaravelCoinpayments\Observables;
 
-use Kevupton\LaravelCoinpayments\Enums\IpnStatus;
-use Kevupton\LaravelCoinpayments\Events\Deposit\DepositComplete;
-use Kevupton\LaravelCoinpayments\Events\Deposit\DepositCreated;
-use Kevupton\LaravelCoinpayments\Events\Deposit\DepositUpdated;
-use Kevupton\LaravelCoinpayments\Models\Deposit;
+use Oryzonbr\LaravelCoinpayments\Enums\IpnStatus;
+use Oryzonbr\LaravelCoinpayments\Events\Deposit\DepositComplete;
+use Oryzonbr\LaravelCoinpayments\Events\Deposit\DepositCreated;
+use Oryzonbr\LaravelCoinpayments\Events\Deposit\DepositUpdated;
+use Oryzonbr\LaravelCoinpayments\Models\Deposit;
 
 class DepositObservable
 {

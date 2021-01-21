@@ -27,8 +27,8 @@ install:
   - export DB_USERNAME=travis DB_DATABASE=hyn DB_PASSWORD= QUEUE_DRIVER=sync
   - export PACKAGE_PROVIDER=Owner\\\\PackageName\\\\Providers\\\\ReferralsServiceProvider::class
 #  - export SEED_CLASS=TestSeeds::class
-  - export PACKAGE_NAME=kevupton/referrals
-  - curl -s https://raw.githubusercontent.com/kevupton/docker-laravel-tests/master/setup.sh | bash
+  - export PACKAGE_NAME=oryzonbr/referrals
+  - curl -s https://raw.githubusercontent.com/oryzonbr/docker-laravel-tests/master/setup.sh | bash
 
 script:
   - cd laravel

@@ -1,11 +1,11 @@
 <?php
 
-namespace Kevupton\LaravelCoinpayments\Hashers;
+namespace Oryzonbr\LaravelCoinpayments\Hashers;
 
 /**
  * Class Sha3
  *
- * @package Kevupton\LaravelCoinpayments\Hashers
+ * @package Oryzonbr\LaravelCoinpayments\Hashers
  * @source https://github.com/0xbb/php-sha3
  */
 final class Sha3

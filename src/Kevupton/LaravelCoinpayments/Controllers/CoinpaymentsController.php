@@ -6,14 +6,14 @@
  * Time: 6:42 PM
  */
 
-namespace Kevupton\LaravelCoinpayments\Controllers;
+namespace Oryzonbr\LaravelCoinpayments\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Controller;
-use Kevupton\LaravelCoinpayments\Exceptions\IpnIncompleteException;
-use Kevupton\LaravelCoinpayments\LaravelCoinpayments;
-use Kevupton\LaravelCoinpayments\Models\Log;
+use Oryzonbr\LaravelCoinpayments\Exceptions\IpnIncompleteException;
+use Oryzonbr\LaravelCoinpayments\LaravelCoinpayments;
+use Oryzonbr\LaravelCoinpayments\Models\Log;
 
 class CoinpaymentsController extends Controller
 {

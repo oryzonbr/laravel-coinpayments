@@ -1,15 +1,15 @@
-<?php namespace Kevupton\LaravelCoinpayments\Providers;
+<?php namespace Oryzonbr\LaravelCoinpayments\Providers;
 
-use Kevupton\LaravelCoinpayments\Controllers\CoinpaymentsController;
-use Kevupton\LaravelCoinpayments\Facades\Coinpayments;
-use Kevupton\LaravelCoinpayments\LaravelCoinpayments;
-use Kevupton\LaravelCoinpayments\Models\Deposit;
-use Kevupton\LaravelCoinpayments\Models\Transaction;
-use Kevupton\LaravelCoinpayments\Models\Withdrawal;
-use Kevupton\LaravelCoinpayments\Observables\DepositObservable;
-use Kevupton\LaravelCoinpayments\Observables\TransactionObservable;
-use Kevupton\LaravelCoinpayments\Observables\WithdrawalObservable;
-use Kevupton\LaravelPackageServiceProvider\ServiceProvider;
+use Oryzonbr\LaravelCoinpayments\Controllers\CoinpaymentsController;
+use Oryzonbr\LaravelCoinpayments\Facades\Coinpayments;
+use Oryzonbr\LaravelCoinpayments\LaravelCoinpayments;
+use Oryzonbr\LaravelCoinpayments\Models\Deposit;
+use Oryzonbr\LaravelCoinpayments\Models\Transaction;
+use Oryzonbr\LaravelCoinpayments\Models\Withdrawal;
+use Oryzonbr\LaravelCoinpayments\Observables\DepositObservable;
+use Oryzonbr\LaravelCoinpayments\Observables\TransactionObservable;
+use Oryzonbr\LaravelCoinpayments\Observables\WithdrawalObservable;
+use Oryzonbr\LaravelPackageServiceProvider\ServiceProvider;
 
 class LaravelCoinpaymentsServiceProvider extends ServiceProvider
 {

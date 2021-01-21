@@ -6,7 +6,7 @@
  * Time: 9:14 PM
  */
 
-namespace Kevupton\LaravelCoinpayments\Events\Withdrawal;
+namespace Oryzonbr\LaravelCoinpayments\Events\Withdrawal;
 
 
 class WithdrawalUpdated extends AbstractWithdrawalEvent

@@ -1,13 +1,13 @@
 <?php
 
-namespace Kevupton\LaravelCoinpayments\Validators;
+namespace Oryzonbr\LaravelCoinpayments\Validators;
 
-use Kevupton\LaravelCoinpayments\Hashers\Sha3;
+use Oryzonbr\LaravelCoinpayments\Hashers\Sha3;
 
 /**
  * Class EthereumValidator
  *
- * @package Kevupton\LaravelCoinpayments\Validators
+ * @package Oryzonbr\LaravelCoinpayments\Validators
  * @source https://stackoverflow.com/questions/44990408/how-to-validate-ethereum-addresses-in-php
  */
 class EthereumValidator

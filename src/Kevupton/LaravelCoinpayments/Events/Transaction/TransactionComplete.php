@@ -6,7 +6,7 @@
  * Time: 9:50 PM
  */
 
-namespace Kevupton\LaravelCoinpayments\Events\Transaction;
+namespace Oryzonbr\LaravelCoinpayments\Events\Transaction;
 
 
 class TransactionComplete extends AbstractTransactionEvent

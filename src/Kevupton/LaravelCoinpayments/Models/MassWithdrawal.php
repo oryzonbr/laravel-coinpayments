@@ -6,13 +6,13 @@
  * Time: 12:31 PM
  */
 
-namespace Kevupton\LaravelCoinpayments\Models;
+namespace Oryzonbr\LaravelCoinpayments\Models;
 use Illuminate\Support\Collection;
 
 /**
  * Class Transaction
  *
- * @package Kevupton\LaravelCoinpayments\Models
+ * @package Oryzonbr\LaravelCoinpayments\Models
  * @property mixed                   id
  * @property mixed                   created_at
  * @property mixed                   updated_at

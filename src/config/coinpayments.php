@@ -1,6 +1,6 @@
 <?php
 
-use Kevupton\LaravelCoinpayments\Models\Log;
+use Oryzonbr\LaravelCoinpayments\Models\Log;
 
 return [
 

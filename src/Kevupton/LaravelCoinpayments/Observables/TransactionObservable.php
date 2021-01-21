@@ -6,13 +6,13 @@
  * Time: 6:17 PM
  */
 
-namespace Kevupton\LaravelCoinpayments\Observables;
+namespace Oryzonbr\LaravelCoinpayments\Observables;
 
-use Kevupton\LaravelCoinpayments\Enums\IpnStatus;
-use Kevupton\LaravelCoinpayments\Events\Transaction\TransactionComplete;
-use Kevupton\LaravelCoinpayments\Events\Transaction\TransactionCreated;
-use Kevupton\LaravelCoinpayments\Events\Transaction\TransactionUpdated;
-use Kevupton\LaravelCoinpayments\Models\Transaction;
+use Oryzonbr\LaravelCoinpayments\Enums\IpnStatus;
+use Oryzonbr\LaravelCoinpayments\Events\Transaction\TransactionComplete;
+use Oryzonbr\LaravelCoinpayments\Events\Transaction\TransactionCreated;
+use Oryzonbr\LaravelCoinpayments\Events\Transaction\TransactionUpdated;
+use Oryzonbr\LaravelCoinpayments\Models\Transaction;
 
 class TransactionObservable
 {

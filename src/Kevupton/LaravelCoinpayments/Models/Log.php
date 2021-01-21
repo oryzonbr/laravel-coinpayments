@@ -6,7 +6,7 @@
  * Time: 12:31 PM
  */
 
-namespace Kevupton\LaravelCoinpayments\Models;
+namespace Oryzonbr\LaravelCoinpayments\Models;
 
 class Log extends Model
 {

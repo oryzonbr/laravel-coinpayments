@@ -485,16 +485,16 @@
             "time": "2014-09-09T13:34:57+00:00"
         },
         {
-            "name": "kevupton/laravel-package-service-provider",
+            "name": "oryzonbr/laravel-package-service-provider",
             "version": "v0.0.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/kevupton/laravel-package-service-provider.git",
+                "url": "https://github.com/oryzonbr/laravel-package-service-provider.git",
                 "reference": "cd07327faaa28423ce47c973ed4194b29af90f37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kevupton/laravel-package-service-provider/zipball/cd07327faaa28423ce47c973ed4194b29af90f37",
+                "url": "https://api.github.com/repos/oryzonbr/laravel-package-service-provider/zipball/cd07327faaa28423ce47c973ed4194b29af90f37",
                 "reference": "cd07327faaa28423ce47c973ed4194b29af90f37",
                 "shasum": ""
             },
@@ -505,7 +505,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Kevupton\\LaravelPackageServiceProvider\\": "src/Kevupton/LaravelPackageServiceProvider/"
+                    "Oryzonbr\\LaravelPackageServiceProvider\\": "src/Oryzonbr/LaravelPackageServiceProvider/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",

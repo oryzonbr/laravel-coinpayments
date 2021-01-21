@@ -6,7 +6,7 @@
  * Time: 8:22 PM
  */
 
-namespace Kevupton\LaravelCoinpayments\Enums;
+namespace Oryzonbr\LaravelCoinpayments\Enums;
 
 class IpnStatus
 {

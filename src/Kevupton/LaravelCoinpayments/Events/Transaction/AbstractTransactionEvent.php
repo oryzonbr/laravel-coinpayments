@@ -6,10 +6,10 @@
  * Time: 9:46 PM
  */
 
-namespace Kevupton\LaravelCoinpayments\Events\Transaction;
+namespace Oryzonbr\LaravelCoinpayments\Events\Transaction;
 
-use Kevupton\LaravelCoinpayments\Events\Event;
-use Kevupton\LaravelCoinpayments\Models\Transaction;
+use Oryzonbr\LaravelCoinpayments\Events\Event;
+use Oryzonbr\LaravelCoinpayments\Models\Transaction;
 
 class AbstractTransactionEvent extends Event
 {

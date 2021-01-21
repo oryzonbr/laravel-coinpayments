@@ -6,10 +6,10 @@
  * Time: 8:13 PM
  */
 
-namespace Kevupton\LaravelCoinpayments\Events\Deposit;
+namespace Oryzonbr\LaravelCoinpayments\Events\Deposit;
 
-use Kevupton\LaravelCoinpayments\Events\Event;
-use Kevupton\LaravelCoinpayments\Models\Deposit;
+use Oryzonbr\LaravelCoinpayments\Events\Event;
+use Oryzonbr\LaravelCoinpayments\Models\Deposit;
 
 abstract class AbstractDepositEvent extends Event
 {

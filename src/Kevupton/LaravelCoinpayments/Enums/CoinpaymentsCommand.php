@@ -1,6 +1,6 @@
 <?php
 
-namespace Kevupton\LaravelCoinpayments\Enums;
+namespace Oryzonbr\LaravelCoinpayments\Enums;
 
 abstract class CoinpaymentsCommand {
     const CONVERT = 'convert';

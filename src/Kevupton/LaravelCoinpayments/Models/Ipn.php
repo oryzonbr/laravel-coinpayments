@@ -6,12 +6,12 @@
  * Time: 12:31 PM
  */
 
-namespace Kevupton\LaravelCoinpayments\Models;
+namespace Oryzonbr\LaravelCoinpayments\Models;
 
 /**
  * Class Ipn
  *
- * @package Kevupton\LaravelCoinpayments\Models
+ * @package Oryzonbr\LaravelCoinpayments\Models
  * @property mixed          id
  * @property mixed          ipn_version
  * @property mixed          ipn_id

@@ -6,10 +6,10 @@
  * Time: 1:14 PM
  */
 
-namespace Kevupton\LaravelCoinpayments\Facades;
+namespace Oryzonbr\LaravelCoinpayments\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Kevupton\LaravelCoinpayments\Providers\LaravelCoinpaymentsServiceProvider;
+use Oryzonbr\LaravelCoinpayments\Providers\LaravelCoinpaymentsServiceProvider;
 
 class Coinpayments extends Facade
 {

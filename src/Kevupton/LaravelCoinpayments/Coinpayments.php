@@ -1,13 +1,13 @@
 <?php
 
-namespace Kevupton\LaravelCoinpayments;
+namespace Oryzonbr\LaravelCoinpayments;
 
 use Illuminate\Validation\ValidationException;
-use Kevupton\LaravelCoinpayments\Enums\CoinpaymentsCommand;
-use Kevupton\LaravelCoinpayments\Exceptions\CoinPaymentsException;
-use Kevupton\LaravelCoinpayments\Exceptions\JsonParseException;
-use Kevupton\LaravelCoinpayments\Exceptions\MessageSendException;
-use Kevupton\LaravelCoinpayments\Models\Log;
+use Oryzonbr\LaravelCoinpayments\Enums\CoinpaymentsCommand;
+use Oryzonbr\LaravelCoinpayments\Exceptions\CoinPaymentsException;
+use Oryzonbr\LaravelCoinpayments\Exceptions\JsonParseException;
+use Oryzonbr\LaravelCoinpayments\Exceptions\MessageSendException;
+use Oryzonbr\LaravelCoinpayments\Models\Log;
 
 class Coinpayments
 {

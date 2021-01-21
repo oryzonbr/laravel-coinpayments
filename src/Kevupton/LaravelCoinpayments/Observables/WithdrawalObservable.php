@@ -6,13 +6,13 @@
  * Time: 6:17 PM
  */
 
-namespace Kevupton\LaravelCoinpayments\Observables;
+namespace Oryzonbr\LaravelCoinpayments\Observables;
 
-use Kevupton\LaravelCoinpayments\Enums\WithdrawalStatus;
-use Kevupton\LaravelCoinpayments\Events\Withdrawal\WithdrawalComplete;
-use Kevupton\LaravelCoinpayments\Events\Withdrawal\WithdrawalCreated;
-use Kevupton\LaravelCoinpayments\Events\Withdrawal\WithdrawalUpdated;
-use Kevupton\LaravelCoinpayments\Models\Withdrawal;
+use Oryzonbr\LaravelCoinpayments\Enums\WithdrawalStatus;
+use Oryzonbr\LaravelCoinpayments\Events\Withdrawal\WithdrawalComplete;
+use Oryzonbr\LaravelCoinpayments\Events\Withdrawal\WithdrawalCreated;
+use Oryzonbr\LaravelCoinpayments\Events\Withdrawal\WithdrawalUpdated;
+use Oryzonbr\LaravelCoinpayments\Models\Withdrawal;
 
 class WithdrawalObservable
 {

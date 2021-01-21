@@ -6,7 +6,7 @@
  * Time: 3:50 PM
  */
 
-namespace Kevupton\LaravelCoinpayments\Enums;
+namespace Oryzonbr\LaravelCoinpayments\Enums;
 
 class IpnType
 {

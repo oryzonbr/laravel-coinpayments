@@ -6,10 +6,10 @@
  * Time: 12:50 PM
  */
 
-namespace Kevupton\LaravelCoinpayments\Exceptions;
+namespace Oryzonbr\LaravelCoinpayments\Exceptions;
 
 
-use Kevupton\LaravelCoinpayments\Models\Ipn;
+use Oryzonbr\LaravelCoinpayments\Models\Ipn;
 use Throwable;
 
 class IpnIncompleteException extends \Exception
